@@ -1,0 +1,115 @@
+.fixed-top {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar .logo {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255) !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding: 0;
+  background: rgba(40, 58, 90, 0.9);
+
+}
+
+.nav_link {
+  color: rgb(255, 255, 255) !important;
+
+}
+
+.nav_link:hover {
+  color: #0d6efd !important;
+
+}
+
+#collasible-nav-dropdown {
+  color: rgb(255, 255, 255) !important;
+
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+
+}
+
+.navbar li {
+  position: relative;
+}
+
+.nav_link:focus {
+
+  color: #0d6efd !important;
+
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px !important;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff !important;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+.navbar .getstarted:hover {
+  background-color: #47b2e4;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.mobile-nav-toggle {
+  background-color: #fff !important;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}

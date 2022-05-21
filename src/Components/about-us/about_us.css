@@ -1,0 +1,143 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 4px;
+  transition: 0.3s;
+  line-height: 1;
+  color: #47b2e4;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  margin-top: 6px;
+  border: 2px solid #47b2e4;
+}
+
+.btn-learn-more:hover {
+  background-color: #47b2e4;
+  color: white;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+
+.bg-color {
+  background-color: #f3f5fa;
+}
+
+main {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.main .content {
+  padding: 60px 10px 0 100px;
+}
+
+
+.main .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.main .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none !important;
+}
+
+#section-2 {
+  background-color: #f3f5fa !important;
+}
+
+.accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+.accordion-list strong {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+.accordion-list .text-align {
+  padding-right: 8px;
+  text-align: left;
+}
+
+.why-s {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media (max-width: 480px) {
+  .main .content {
+    padding: 0px;
+  }
+
+  .main .content h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #37517e;
+    text-align: left;
+    font-family: "Jost", sans-serif;
+    margin-top: 1rem;
+  }
+
+  .quran-img {
+    width: 70%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+}
