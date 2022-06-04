@@ -19,7 +19,6 @@ export default function Contact() {
                     <p>Please call us on the following numbers,simply want to connect.</p>
                     <br></br>
                     <strong>PAK: +92 3182805567(Call/SMS)</strong><br /><br />
-                    {/* <strong>WhatsApp: +9218 2805567 (Call/SMS)</strong> */}
                     <ReactWhatsapp number="+92 3182805567" className="Reactwhatshere" message="I want to book an appointment" >
                       <button className=" btn button-md dark-button js-scroll-trigger footerbtnt" > <i class="fab fa-whatsapp "></i> Send a Whatsapp Message</button>
                     </ReactWhatsapp>
