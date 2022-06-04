@@ -15,10 +15,7 @@ export default function Team() {
           <div className="container">
             <h2>Fee Policy</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+              Alassarquranacadmey.netlify.app doesn’t accept any donation. It runs on a small fee we receive from the students. In order for Quranic Classes to provide a high quality environment and an appropriate program for children and adult, we must remain financially viable. While ensuring fee levels are at an affordable level for families.
             </p>
             <div className="row">
               <div

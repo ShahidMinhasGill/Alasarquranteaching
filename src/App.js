@@ -16,7 +16,7 @@ import ReactWhatsapp from 'react-whatsapp';
 function App() {
   return (
     <div className="App">
-      <ReactWhatsapp number="+92 303 8081844"  >
+      <ReactWhatsapp number="+92 3182805567"  >
         <span class="float" target="_blank">
           <i class="fa fa-whatsapp my-float"></i>
         </span>
