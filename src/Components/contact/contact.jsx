@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactWhatsapp from 'react-whatsapp'
 import './contact_style.css'
 
 export default function Contact() {
@@ -10,21 +11,21 @@ export default function Contact() {
             <h2>contact</h2>
             <p>Contact Us & Get Your Kids on Quran Learning Track!
               The Original Online Quran Tutoring Service.</p>
-          </div>
-          <div className="row mt-4">
-
-
-            <div class="form-container">
-              <div class="left-container">
-                <div class="left-inner-container">
-                  <h2>Call Us</h2>
-                  <p>Please call us on the following numbers,simply want to connect.</p>
-                  <br></br>
-                  <strong>PAK: +9218 2805567 (Call/SMS)</strong><br /><br />
-                  <strong>WhatsApp: +9218 2805567 (Call/SMS)</strong>
+            <div className="row mt-4">
+              <div class="form-container">
+                <div class="left-container">
+                  <div class="left-inner-container">
+                    <h2>Call Us</h2>
+                    <p>Please call us on the following numbers,simply want to connect.</p>
+                    <br></br>
+                    <strong>PAK: +9218 2805567 (Call/SMS)</strong><br /><br />
+                    {/* <strong>WhatsApp: +9218 2805567 (Call/SMS)</strong> */}
+                    <ReactWhatsapp number="+92 303 8081844" className="Reactwhatshere" message="I want to book an appointment" >
+                      <button className=" btn button-md dark-button js-scroll-trigger footerbtnt" > <i class="fab fa-whatsapp "></i> Send a Whatsapp Message</button>
+                    </ReactWhatsapp>
+                  </div>
                 </div>
-              </div>
-              <div class="right-container">
+                {/* <div class="right-container">
                 <div class="right-inner-container">
                   <form action="#">
                     <h2 class="sm-view">Let's Chat</h2>
@@ -41,6 +42,7 @@ export default function Contact() {
                     <button>Submit</button>
                   </form>
                 </div>
+              </div> */}
               </div>
             </div>
           </div>

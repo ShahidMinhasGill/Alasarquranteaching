@@ -11,10 +11,16 @@ import Portfolio from './Components/portfolio/portfolio'
 import Team from './Components/team/team'
 import Contact from './Components/contact/contact'
 import Footer from './Components/footer/footer'
+import ReactWhatsapp from 'react-whatsapp';
 
 function App() {
   return (
     <div className="App">
+      <ReactWhatsapp number="+92 303 8081844"  >
+        <span class="float" target="_blank">
+          <i class="fa fa-whatsapp my-float"></i>
+        </span>
+      </ReactWhatsapp>
       {/* <Top_header/> */}
       <MyHeader />
       <Home />
