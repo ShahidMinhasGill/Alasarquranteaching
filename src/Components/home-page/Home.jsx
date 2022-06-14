@@ -2,10 +2,44 @@ import React from "react";
 import "./Home_style.css";
 import { BsPlayCircle } from "react-icons/bs";
 
+import Slider from "react-slick";
+
 export default function Home() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear"
+  };
   return (
     <div>
+      {/* <div>
+        <h2>Auto Play</h2>
+        <Slider {...settings}>
+          <div id="home">
 
+          </div>
+          <div>
+            <img src="mainphoto.jpg" alt="" />
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+        </Slider>
+      </div> */}
       <section id="home" className="d-flex align-items-center ">
         <div className="container">
           <div className="row ">
