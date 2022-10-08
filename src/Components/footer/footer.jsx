@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="container">
               <div className="row">
                 <div className="col-lg-3 col-md-6 footer-contact">
-                  <h3>Alasar</h3>
+                  <h3>Al-FAJR</h3>
                   <p>
                     Pir Mahal
                     <br></br>
@@ -43,7 +43,7 @@ export default function Footer() {
                     +9218 2805567
                     <br></br>
                     <strong>Email:</strong>
-                    Alassar313@gmail.com
+                    ahsan03038081844@gmail.com
                   </p>
                 </div>
                 <div className="col-lg-3 col-md-6 footer-links">
@@ -101,7 +101,7 @@ export default function Footer() {
           <div className="copyright">
             © Copyright
             <strong>
-              <span>Alassar</span>
+              <span>Al-Fajr</span>
             </strong>
 
           </div>

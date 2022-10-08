@@ -7,7 +7,7 @@ export default function MyHeader() {
     <div id=''>
       <Navbar collapseOnSelect expand="lg" id='navbar' className='navbar fixed-top '>
         <Container>
-          <Navbar.Brand className=' logo me-auto ' href='#home'> <img src="logo.png" alt="" height='60px' /></Navbar.Brand>
+          <Navbar.Brand className=' logo me-auto ' href='#home'> AL-FAJR</Navbar.Brand>
           <Navbar.Toggle className='' aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">

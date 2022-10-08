@@ -26,7 +26,7 @@ export default function Services() {
           <div className="section-title">
             <h2>Services</h2>
             <p >
-              The online Quran Tutoring services of alassarquranteaching.netlify are benefitting hundred of students all over the world including USA, Canada, UK, Australia, Netherlands, Ireland and many other countries.
+              The online Quran Tutoring services of alfajarquranteaching.netlify are benefitting hundred of students all over the world including USA, Canada, UK, Australia, Netherlands, Ireland and many other countries.
               The praises and recommendations of the students who learn here, the main source of our advertisement, represent the trust they put in us as they refer QuanTeaching.com to their friends as well as relatives.
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function Services() {
               data-aos-once="false"
             >
               <h3>Aim of this</h3>
-              <p>Alassarquranteaching.netlify does not accept any donations. It runs on a small fee we receive from the students. In order for Quran Academy to provide a high quality environment and an appropriate program for children and adult we must remain financially viable, while ensuring fee levels are at an affordable level for families.</p>
+              <p>Al-Fajrquranteaching.netlify does not accept any donations. It runs on a small fee we receive from the students. In order for Quran Academy to provide a high quality environment and an appropriate program for children and adult we must remain financially viable, while ensuring fee levels are at an affordable level for families.</p>
             </div>
             <div className="col-lg-3 cta-btn-container text-center"
               data-aos="fade-up"

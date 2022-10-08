@@ -35,7 +35,7 @@ export default function AboutUs() {
           >
             <div className="col-lg-6">
               <p>
-                Alassar Online Quran And Hadith Acadmey provides the learners with proper Tajweed guided Holy Quran recitation in online one-to-one live Quran classes with experienced Quran tutors. These tutors not only provide you instructions about how to do it but also help you encounter the problems you face during your learning period.
+                Al-Fajr Online Quran And Hadith Acadmey provides the learners with proper Tajweed guided Holy Quran recitation in online one-to-one live Quran classes with experienced Quran tutors. These tutors not only provide you instructions about how to do it but also help you encounter the problems you face during your learning period.
               </p>
 
             </div>
